@@ -10,10 +10,20 @@
 
     <!-- Form for adding new data -->
     <form id="addForm">
-        <!-- Your input fields here -->
-        <label for="fieldName">Field Name:</label>
-        <input type="text" id="fieldName" required>
-        <!-- Add more input fields as needed -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        
+        <label for="idCardNumber">ID Card Number:</label>
+        <input type="text" id="idCardNumber" required>
+        
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="text" id="phoneNumber" required>
+        
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" required>
+
+        <label for="daysStayed">Number of Days Stayed:</label>
+        <input type="number" id="daysStayed" required>
 
         <button type="submit">Add</button>
     </form>
@@ -22,8 +32,11 @@
     <table id="dataTable" border="1">
         <thead>
             <tr>
-                <th>Field Name</th>
-                <!-- Add more table headers as needed -->
+                <th>Name</th>
+                <th>ID Card Number</th>
+                <th>Phone Number</th>
+                <th>Email Address</th>
+                <th>Days Stayed</th>
             </tr>
         </thead>
         <tbody>
