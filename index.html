@@ -1,7 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Application</title>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <h1>CRUD Application with Ragic</h1>
+
+    <!-- Form for adding new data -->
+    <form id="addForm">
+        <!-- Your input fields here -->
+        <label for="fieldName">Field Name:</label>
+        <input type="text" id="fieldName" required>
+        <!-- Add more input fields as needed -->
+
+        <button type="submit">Add</button>
+    </form>
+
+    <!-- Table to display existing data -->
+    <table id="dataTable" border="1">
+        <thead>
+            <tr>
+                <th>Field Name</th>
+                <!-- Add more table headers as needed -->
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be displayed here -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
 </body>
 </html>
