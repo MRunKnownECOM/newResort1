@@ -1,6 +1,6 @@
 const apiKey = 'SWZHMWtJZmZncnNJV1M2WkJ6NHAwc2hDd2ZSejRCaGdpZFcyZFA5ZDFOZ3ZSUDhhd3YvS2QxK3Z0WkJZckZlNzBwTW5SZEtuL2NvPQ==';
 const sheetId = 'demo';
-const apiUrl = `https://www.ragic.com/ccn1206/${sheetId}/1`;
+const apiUrl = `	https://sea1.ragic.com/resortBase/demo/2`;
 
 const addForm = document.getElementById('addForm');
 const dataTable = document.getElementById('dataTable');
